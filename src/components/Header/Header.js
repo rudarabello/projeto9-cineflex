@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
-import React from "react";
+
+import "./header.css";
 
 export default function Header() {
-    <Link>
-        <h1>CINEFLEX</h1>
-    </Link>
+    return (
+        <header className="header">
+            <span className="title">CINEFLEX</span>
+        </header>
+    );
 }
-

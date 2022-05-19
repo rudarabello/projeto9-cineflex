@@ -22,7 +22,7 @@ export default function MovieCatalogue() {
                     movies.map((movie, index) => (
                         <MovieCover key={index} cover={movie.posterURL} title={movie.title} id={movie.id} />
                     ))
-                ) : (<img src={loading} />
+                ) : (<img src={loading} alt="" />
                 )}
             </div>
         </div>
